@@ -23,4 +23,4 @@ jobs:
         with:
             ssh-private-key: ${{ secrets.DOKKU_PRIVATE_KEY }}
             dokku-host: ${{ secrets.DOKKU_HOST }}
-            app-name: '2038-news'
+            app-name: 'bestand.global'

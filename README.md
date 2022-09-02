@@ -10,7 +10,7 @@ Rule 1: Push to dev
 
 Rule 2: To release a new version, ssh into intergestalt-cloud first. Then, start the rebuild script. It will prompt you to do add your commits to master branch. Do so by merging dev into master. Let the script continue.
 
-Rule 3: Check if the commits are in sync. On intergestalt-cloud: `docker exec 2038-news-admin.web.1 git rev-parse HEAD` compare to latest master commit in github.
+Rule 3: Check if the commits are in sync. On intergestalt-cloud: `docker exec bestand-admin.web.1 git rev-parse HEAD` compare to latest master commit in github.
 
 ### ENV
 ```
@@ -27,12 +27,12 @@ source: https://tinacms.org/blog/using-tinacms-on-gatsby-cloud
 ### docker
 
 ```
-docker build --tag 2038-news:latest .
-docker run -it --env GIT_REMOTE=git@github.com:retani/2038-news.git --env GIT_AUTHOR_EMAIL=hi@intergestalt.info --env SSH_KEY=$( cat ~/.ssh/id_rsa | base64)  --env GIT_AUTHOR_NAME=HH --env TINA_CEE=true --rm -p 8000:8000 2038-news:latest develop
+docker build --tag bestand:latest .
+docker run -it --env GIT_REMOTE=git@github.com:intergestalt/bestand.git --env GIT_AUTHOR_EMAIL=hi@intergestalt.info --env SSH_KEY=$( cat ~/.ssh/id_rsa | base64)  --env GIT_AUTHOR_NAME=HH --env TINA_CEE=true --rm -p 8000:8000 bestand:latest develop
 
-docker run -it --rm -p 8000:8000 2038-news:latest serve
+docker run -it --rm -p 8000:8000 bestand:latest serve
 
-docker run -it --env GIT_REMOTE=git@github.com:retani/2038-news.git --env GIT_AUTHOR_EMAIL=hi@intergestalt.info --env SSH_KEY=$( cat ~/.ssh/id_rsa | base64)  --env GIT_AUTHOR_NAME=HH --env TINA_CEE=true --rm -p 8000:8000 -p 8001:8001 2038-news:latest both
+docker run -it --env GIT_REMOTE=git@github.com:intergestalt/bestand.git --env GIT_AUTHOR_EMAIL=hi@intergestalt.info --env SSH_KEY=$( cat ~/.ssh/id_rsa | base64)  --env GIT_AUTHOR_NAME=HH --env TINA_CEE=true --rm -p 8000:8000 -p 8001:8001 bestand:latest both
 
 ```
 
