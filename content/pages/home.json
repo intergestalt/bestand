@@ -19,6 +19,16 @@
       "link": ""
     },
     {
+      "videoId": "551584252",
+      "text": "How we arrived in this state of New Serenity? Find out in the Cloud Pavilion. It allows you to playfully explore 2038, by bridging space and time, exploring how communication in mixed reality can come to life.\n\nSounds abstract? It's not. Press enter and meet people from all around the world, to binge-watch the films from 2038 and discuss the expert's ideas and visions from the future.",
+      "text2": "Cloud pavilion built with open source software Mozilla hubs",
+      "link": "https://exp.thenewserenity.com/",
+      "linkText": "Enter",
+      "_template": "IntroLinkBlock",
+      "content": "",
+      "hide": false
+    },
+    {
       "text": "NEWS",
       "color": "#0000ff",
       "link": "",
@@ -28,7 +38,7 @@
     {
       "image": "../images/AWC 2038 2021_smallest Kopie.jpg",
       "color": "#000000",
-      "text": "The second edition of 2038 x Arts of the Working Class brings back the story to the streets of the world. Arts of the Working Class is a multi-lingual street journal which is published every two months and contains contributions by artists and thinkers from different fields and in different languages. Everyone who sells this street journal earns money directly. Vendors keep 100% of the sales. Every artist whose work is advertised, designs with us its substance.",
+      "text": "OUT NOW: The second edition of 2038 x Arts of the Working Class brings back the story to the streets of the world. Arts of the Working Class is a multi-lingual street journal which is published every two months and contains contributions by artists and thinkers from different fields and in different languages. Everyone who sells this street journal earns money directly. Vendors keep 100% of the sales. Every artist whose work is advertised, designs with us its substance.",
       "_template": "PublicationBlock",
       "content": "",
       "link": "https://viceversaartbooks.com/items/arts-of-the-working-class-17-the-new-serenity/"
