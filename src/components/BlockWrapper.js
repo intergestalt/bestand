@@ -9,10 +9,10 @@ export default function({ label, hide, children }) {
   const showLabel = /*( show || cms.sidebar.isOpen ) && */ process.env.NODE_ENV === "development"
   //console.log(cms.sidebar.hidden, "SIDEBAR")
   return <Wrapper hide={hide}>
-    {/*<LazyLoad height={400} offset={400} overflow={true}>*/}
+    <LazyLoad height={400} offset={400} overflow={true}>
     {showLabel && <Label hide={hide}>{hide && "HIDDEN "}{label}</Label> }
       { children}
-    {/*</LazyLoad>*/}
+      </LazyLoad>
   </Wrapper>
 }
 
