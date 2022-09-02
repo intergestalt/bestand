@@ -43,7 +43,7 @@ export const PageLayout = ({ page, children, left, right }) => {
   return (
     <>
       {pageTitle && <SEO title={pageTitle} />}
-      { right && right.length > 0 ?
+      { right.length > 0 ?
         <Container style={{ height: `${100 * vh}px` }}>
           <Left>
             {left}
