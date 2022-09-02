@@ -13428,11 +13428,6 @@ react-transition-group@^2.5.0:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react-viewport-height@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/react-viewport-height/-/react-viewport-height-1.1.3.tgz#e26dba81465ffdfe9f6889d6a0e8f20d8d3d4bec"
-  integrity sha512-wRB1odBaQFSz63lXpF1Ow2ntRSxc7SG+3OTJiSmRdWifRfFnuusKt0ouFsM1hy8fz5seR4Kne7UYHimfry2lRw==
-
 react@^16.10.2, react@^16.8.0:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react/-/react-16.13.1.tgz"

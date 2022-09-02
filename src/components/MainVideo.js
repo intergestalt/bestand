@@ -88,7 +88,6 @@ const MainVideo = ({vimeoId, fullscreenButton=true, buttonColor, style={}, setPl
           onReady={player => { 
             setVimeoPlayer(player); 
             player.getTextTracks().then(function (tracks) {
-              if (tracks.length == 0) return
               setLanguageTracks(tracks)
               console.log(tracks)
               player.enableTextTrack(initialLanguageTrack).then( (track) => {

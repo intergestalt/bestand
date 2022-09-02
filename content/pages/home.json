@@ -5,8 +5,7 @@
       "text": "2038",
       "color": "#00FF00",
       "_template": "SectionBlock",
-      "content": "",
-      "place": "left"
+      "content": ""
     },
     {
       "videoId": "548031698",
@@ -68,8 +67,7 @@
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
       "content": "",
-      "image": "../images/",
-      "place": "left"
+      "image": "../images/"
     },
     {
       "text": "There are purely digital spaces that we now consider to be on the same spectrum of “places in which humans operate.” It turns out that architecture and AI have more to do with each other than anyone once imagined.",
@@ -113,8 +111,7 @@
       "text": "it's not about what we think, but about us being part of a system",
       "color": "#FFFFFF",
       "_template": "LandscapeBlock",
-      "content": "",
-      "place": "left"
+      "content": ""
     },
     {
       "text": "I‘m happy we have an ethical code for media and information as a commons, which is not public. You shouldn‘t disclose all your data. Data now operates similarly to how Nobel prize winner Elinor Ostrom describes the management of commons like forests, land or water.",

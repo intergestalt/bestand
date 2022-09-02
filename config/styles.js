@@ -53,8 +53,8 @@ const typoSizes = {
     lineHeightPx: { l: 60, s: 40 },
   },  
   videoLoop: {
-    fontSizePx:   { l: 90/2, s: 38/2 },
-    lineHeightPx: { l: 90/2, s: 40/2 },
+    fontSizePx:   { l: 90, s: 38 },
+    lineHeightPx: { l: 90, s: 40 },
   },
 }
 
@@ -322,6 +322,10 @@ const globalStyles = `
     background-color: ${ colors.bg };
   }
 
+  * {
+    scroll-behavior: smooth;
+  }
+
   body {
     line-height: ${ metrics.large.lineHeightPx }px;
     @media ${ breakpoints.small } {
@@ -329,7 +333,6 @@ const globalStyles = `
     }    
     font-family: ${fontStack_Roboto};
   }
-
 `
 
 /***** EXAMPLE USE 
