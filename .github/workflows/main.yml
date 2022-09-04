@@ -8,9 +8,6 @@ on:
       - master
     paths:
       - '!content/**'
-  #schedule:
-    # * is a special character in YAML so you have to quote this string
-    #- cron:  '15 * * * *'
 
 jobs:
   deploy:
@@ -23,4 +20,7 @@ jobs:
             host: intergestalt.dev
             username: root
             key: ${{ secrets.DOKKU_PRIVATE_KEY }}
-            script: whoami
+            script: |
+              dokku maintenance:enable bestand-admin
+              dokku ps:rebuild bestand-admin
+              dokku maintenance:disable bestand-admin
