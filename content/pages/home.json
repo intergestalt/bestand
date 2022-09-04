@@ -2,7 +2,7 @@
   "path": "/",
   "blocks": [
     {
-      "text": "Bestand.global b",
+      "text": "Bestand.global c",
       "color": "#00FF00",
       "_template": "SectionBlock",
       "content": ""
