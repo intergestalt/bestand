@@ -15,13 +15,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-        with:
-            fetch-depth: 0
       - name: SSH Remote Commands
         uses: appleboy/ssh-action@v0.1.5
         with:
             host: intergestalt.dev
-            username: dokku
+            username: root
             key: ${{ secrets.DOKKU_PRIVATE_KEY }}
             script: whoami
