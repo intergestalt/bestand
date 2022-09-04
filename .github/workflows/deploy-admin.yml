@@ -1,5 +1,5 @@
-name: deploy
-concurrency: deploy
+name: deploy-admin
+concurrency: deploy-admin
 
 on:
   workflow_dispatch:
@@ -8,6 +8,7 @@ on:
       - master
     paths-ignore:
       - 'content/**'
+      - 'static/uploads/**'
 
 jobs:
   deploy:
