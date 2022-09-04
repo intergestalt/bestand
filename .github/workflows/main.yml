@@ -7,7 +7,7 @@ on:
     branches:
       - master
     paths:
-      - 'content/**'
+      - '!content/**'
   #schedule:
     # * is a special character in YAML so you have to quote this string
     #- cron:  '15 * * * *'
