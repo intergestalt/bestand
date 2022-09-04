@@ -2,13 +2,6 @@
   "path": "/",
   "blocks": [
     {
-      "text": "„It was due to the new system, that humanity redifined its relation to nature. Today, {nature is an active political agent: land, water, air and light cannot be owned anymore.}“",
-      "text2": "Conversation with Eyal Weizman",
-      "file": "",
-      "_template": "ArticleBlock",
-      "content": ""
-    },
-    {
       "text": "Bestand.global",
       "color": "#00FF00",
       "_template": "SectionBlock",
