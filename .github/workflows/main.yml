@@ -2,6 +2,7 @@ name: deploy
 concurrency: deploy
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
