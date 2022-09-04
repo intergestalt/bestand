@@ -37,7 +37,7 @@ export const SectionBlock = {
     label: <BlockListItem label={blockLabel} preview={item.text}  hide={item.hide}/>,
   }),  
   defaultItem: {
-    text: `2038`,
+    text: `Bestand.global`,
     color: colors.blue,
     link: ""
   },

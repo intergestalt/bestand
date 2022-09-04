@@ -39,7 +39,7 @@ export function StandaloneVideo({ data }) {
     <BlockWrapper label={blockLabel} hide={hide}>
       <Container height100vh={height100vh}>
         <Back show={!playing}>
-          <Link to="/">2038</Link>
+          <Link to="/">Bestand.global</Link>
         </Back>
         <VideoContainer height100vh={height100vh}>
           <MainVideo vimeoId={videoId} style={{ marginBottom: 0 }} setPlayingCallback={setPlaying} />

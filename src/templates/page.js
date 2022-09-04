@@ -167,7 +167,7 @@ const mapBlocks = function(data,page,blocks) {
 }
 
 const PageForm = {
-  label: "2038",
+  label: "Bestand.global",
   fields: [
     {
       label: "Modules",

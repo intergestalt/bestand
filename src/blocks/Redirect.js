@@ -83,7 +83,7 @@ export const RedirectBlock = {
     label: <BlockListItem label={blockLabel} preview={item.text} />,
   }),
   defaultItem: {
-    text: "https://2038.xyz",
+    text: "https://bestand.global",
     text2: "Redirecting...",
   },
   fields: [

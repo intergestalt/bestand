@@ -16,7 +16,7 @@ export const Menu = function() {
             
             <mask id="knockout-text">
               <rect width="100%" height="100%" fill="#fff" x="0" y="0" />
-              <text x="50%" y="70%" fill="#000" text-anchor="middle">2038</text>
+              <text x="50%" y="70%" fill="#000" text-anchor="middle">Bestand.global</text>
             </mask>
             
           </svg>
